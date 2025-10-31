@@ -1,4 +1,4 @@
-# UP CITY — Simulador Interactivo del Campus UP
+# 🎓 UP CITY — Simulador Interactivo del Campus UP
 
 **Autores:**  
 Luis Mario Padilla Reyes · Andrea Constanza Jiménez Carmona · Rania Hannin Aceves Chávez  
@@ -8,7 +8,7 @@ Luis Mario Padilla Reyes · Andrea Constanza Jiménez Carmona · Rania Hannin Ac
 
 ---
 
-## Descripción general
+## 🧩 Descripción general
 
 **UP CITY** es un simulador educativo en 2D del campus universitario, desarrollado en **Python** con **Pygame** y **Tiled**.  
 Permite jugar como **Alumno**, **Maestro** o **Colaborador**, cada uno con tareas, necesidades y rutinas diarias que afectan su **salud**, **economía** y **rendimiento académico**.
@@ -18,7 +18,7 @@ El jugador debe cumplir actividades, mantener sus necesidades básicas y equilib
 
 ---
 
-## Funcionalidades principales
+## 🕹️ Funcionalidades principales
 
 - Sistema de **roles** (Alumno, Maestro, Colaborador).  
 - **Mapa TMX** interactivo con colisiones reales.  
@@ -31,7 +31,7 @@ El jugador debe cumplir actividades, mantener sus necesidades básicas y equilib
 
 ---
 
-## Arquitectura del código
+## ⚙️ Arquitectura del código
 
 | Archivo / Carpeta | Función |
 |--------------------|---------|
@@ -51,7 +51,7 @@ Esto facilita la ampliación del juego (añadir más NPCs, nuevos mapas o mision
 
 ---
 
-## Lógica y algoritmos utilizados
+## 🧠 Lógica y algoritmos utilizados
 
 - **Bucle principal (Game Loop):** ejecuta lectura de eventos, actualización y renderizado por cuadro (`update()` / `draw()`).  
 - **Movimiento pseudoaleatorio:** los NPCs eligen direcciones aleatorias cada cierto tiempo y cambian al chocar con paredes.  
@@ -63,13 +63,73 @@ Esto facilita la ampliación del juego (añadir más NPCs, nuevos mapas o mision
 
 ---
 
-## Instalación y ejecución
+## 🏗️ Instalación y ejecución
 
-### Requisitos
+### 🔧 Requisitos
 - Python 3.12 o superior  
 - Pygame  
 - PyTMX  
 
-### Instalación
+### 📦 Instalación
 ```bash
 pip install pygame pytmx
+```
+
+### ▶️ Ejecución
+```bash
+python main.py
+```
+
+---
+
+## 🧰 Herramientas utilizadas
+
+| Herramienta | Descripción |
+|--------------|-------------|
+| **Python 3.12 / 3.13** | Lenguaje principal del proyecto. |
+| **Pygame 2.6.1** | Librería para gráficos, sonido, eventos y animaciones. |
+| **PyTMX 3.32** | Carga mapas creados en Tiled (.tmx). |
+| **Tiled Map Editor 1.11+** | Editor visual de mapas del campus (zonas, colisiones y marcadores). |
+| **Anaconda / Spyder IDE** | Entorno de ejecución y depuración del código. |
+| **Visual Studio Code** | Edición modular del código y control de versiones. |
+| **Git y GitHub** | Control de versiones y publicación del proyecto. |
+| **Canva** | Diseño de la portada, presentación y material visual. |
+
+---
+
+## 📚 Bibliografía técnica
+
+1. Pygame Documentation. *Pygame 2.6.1 Reference Manual.*  
+   [https://www.pygame.org/docs](https://www.pygame.org/docs)  
+2. PyTMX Library. *Tiled Map Loading for Pygame.*  
+   [https://github.com/bitcraft/PyTMX](https://github.com/bitcraft/PyTMX)  
+3. Tiled Map Editor. *User Manual & Map Design Guide.*  
+   [https://www.mapeditor.org](https://www.mapeditor.org)  
+4. Python Software Foundation. *The Python Language Reference Manual.*  
+   [https://www.python.org](https://www.python.org)  
+5. Real Python. *Object-Oriented Programming in Python – A Practical Guide.*  
+6. Pygame Community Tutorials. *Game Loop, Camera Control, and Collision Systems.*  
+7. UP City Project Documentation (2025). *Simulación Universitaria y Arquitectura Modular del Campus.*
+
+---
+
+## Créditos
+
+**Proyecto desarrollado por:**  
+- Luis Mario Padilla Reyes  
+- Andrea Constanza Jiménez Carmona  
+- Rania Hannin Aceves Chávez  
+
+**Profesor:**  
+Ricardo Tachiquín
+
+**Universidad Panamericana — Campus Bonaterra (Aguascalientes)**  
+**Materia:** Estructura de Datos II  
+**Año:** 2025  
+
+---
+
+## Licencia
+
+Este proyecto fue desarrollado con fines **educativos** como simulador de vida universitaria dentro de la asignatura *Diseño Lógico*.  
+Se prohíbe su uso comercial sin autorización de los autores.
