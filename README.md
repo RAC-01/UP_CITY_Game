@@ -1,14 +1,14 @@
-# 🎓 UP CITY — Simulador Interactivo del Campus UP
+# UP CITY — Simulador Interactivo del Campus UP
 
 **Autores:**  
 Luis Mario Padilla Reyes · Andrea Constanza Jiménez Carmona · Rania Hannin Aceves Chávez  
-**Docente:** Ing. Isaac Arriaga  
-**Materia:** Diseño Lógico · Universidad Panamericana Campus Bonaterra  
+**Docente:** Ing. Ricardo Tachiquín
+**Materia:** Estructura de Datos II· Universidad Panamericana Campus Bonaterra  
 **Fecha:** 30 de octubre de 2025  
 
 ---
 
-## 🧩 Descripción general
+## Descripción general
 
 **UP CITY** es un simulador educativo en 2D del campus universitario, desarrollado en **Python** con **Pygame** y **Tiled**.  
 Permite jugar como **Alumno**, **Maestro** o **Colaborador**, cada uno con tareas, necesidades y rutinas diarias que afectan su **salud**, **economía** y **rendimiento académico**.
@@ -18,7 +18,7 @@ El jugador debe cumplir actividades, mantener sus necesidades básicas y equilib
 
 ---
 
-## 🕹️ Funcionalidades principales
+## Funcionalidades principales
 
 - Sistema de **roles** (Alumno, Maestro, Colaborador).  
 - **Mapa TMX** interactivo con colisiones reales.  
@@ -31,7 +31,7 @@ El jugador debe cumplir actividades, mantener sus necesidades básicas y equilib
 
 ---
 
-## ⚙️ Arquitectura del código
+## Arquitectura del código
 
 | Archivo / Carpeta | Función |
 |--------------------|---------|
@@ -51,7 +51,7 @@ Esto facilita la ampliación del juego (añadir más NPCs, nuevos mapas o mision
 
 ---
 
-## 🧠 Lógica y algoritmos utilizados
+## Lógica y algoritmos utilizados
 
 - **Bucle principal (Game Loop):** ejecuta lectura de eventos, actualización y renderizado por cuadro (`update()` / `draw()`).  
 - **Movimiento pseudoaleatorio:** los NPCs eligen direcciones aleatorias cada cierto tiempo y cambian al chocar con paredes.  
@@ -63,26 +63,26 @@ Esto facilita la ampliación del juego (añadir más NPCs, nuevos mapas o mision
 
 ---
 
-## 🏗️ Instalación y ejecución
+## Instalación y ejecución
 
-### 🔧 Requisitos
+### Requisitos
 - Python 3.12 o superior  
 - Pygame  
 - PyTMX  
 
-### 📦 Instalación
+### Instalación
 ```bash
 pip install pygame pytmx
 ```
 
-### ▶️ Ejecución
+### Ejecución
 ```bash
 python main.py
 ```
 
 ---
 
-## 🧰 Herramientas utilizadas
+## Herramientas utilizadas
 
 | Herramienta | Descripción |
 |--------------|-------------|
@@ -97,7 +97,7 @@ python main.py
 
 ---
 
-## 📚 Bibliografía técnica
+## Bibliografía técnica
 
 1. Pygame Documentation. *Pygame 2.6.1 Reference Manual.*  
    [https://www.pygame.org/docs](https://www.pygame.org/docs)  
@@ -121,7 +121,7 @@ python main.py
 - Rania Hannin Aceves Chávez  
 
 **Profesor:**  
-Ricardo Tachiquín
+Ing. Ricardo Tachiquín
 
 **Universidad Panamericana — Campus Bonaterra (Aguascalientes)**  
 **Materia:** Estructura de Datos II  
