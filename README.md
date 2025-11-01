@@ -2,8 +2,8 @@
 
 **Autores:**  
 Luis Mario Padilla Reyes · Andrea Constanza Jiménez Carmona · Rania Hannin Aceves Chávez  
-**Docente:** Ing. Ricardo Tachiquín
-**Materia:** Estructura de Datos II· Universidad Panamericana Campus Bonaterra  
+**Docente:** Ing. Ricardo Tachiquín  
+**Materia:** Estructura de Datos II · Universidad Panamericana Campus Bonaterra  
 **Fecha:** 30 de octubre de 2025  
 
 ---
@@ -91,7 +91,6 @@ python main.py
 | **PyTMX 3.32** | Carga mapas creados en Tiled (.tmx). |
 | **Tiled Map Editor 1.11+** | Editor visual de mapas del campus (zonas, colisiones y marcadores). |
 | **Anaconda / Spyder IDE** | Entorno de ejecución y depuración del código. |
-| **Visual Studio Code** | Edición modular del código y control de versiones. |
 | **Git y GitHub** | Control de versiones y publicación del proyecto. |
 | **Canva** | Diseño de la portada, presentación y material visual. |
 
